@@ -1,12 +1,12 @@
 import json
 
 def show_books(books):
-    print("Your books:")
+    print("\n===== MY BOOKS =====")
 
     for book in books:
-        print("Book:", book["name"])
-        print("Priority:", book["priority"])
-        print("------------------")
+        print("Book Name:", book["name"])
+        print("Book Priority:", book["priority"].upper())
+        print("====================")
 
 
 def load_books():
