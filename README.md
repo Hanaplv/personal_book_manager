@@ -9,6 +9,15 @@ A simple book manager built with python
 - save books
 - load saved books
 - admin mode
+- Assign priorities to books (low, medium, high).
+
+## Book Priority
+
+Each book can have one of the following priority levels:
+
+- low
+- medium
+- high
 
 ## Requirements
 - Python
