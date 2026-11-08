@@ -4,7 +4,10 @@ def show_books(books):
     print("Your books:")
 
     for book in books:
-        print(book)
+        print("Book:", book["name"])
+        print("Priority:", book["priority"])
+        print("------------------")
+
 
 def load_books():
     try:
@@ -12,6 +15,7 @@ def load_books():
         books = json.load(file)
         file.close()
         return books
+
     except FileNotFoundError:
         return []
 
