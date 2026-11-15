@@ -6,6 +6,7 @@ load_dotenv()
 
 name = input("Enter your name: ")
 print("Welcome2", name)
+
 admin = input("Enter Admin Mode? (yes/no): ")
 
 if admin == "yes":
