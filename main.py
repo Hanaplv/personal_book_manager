@@ -31,7 +31,7 @@ for i in range(count):
         priority = input("Enter priority (low/medium/high): ")
 
     new_book = {
-        "name": book,
+        "namee": book,
         "priority": priority
     }
 
