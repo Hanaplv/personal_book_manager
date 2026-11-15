@@ -1,5 +1,6 @@
 # Personal Book Manager
 A simple book manager built with python
+This project helps users organize their personal book collection.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 
