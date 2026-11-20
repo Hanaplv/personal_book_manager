@@ -38,4 +38,5 @@ for i in range(count):
     books.append(new_book)
 
 save_books(books)
+print("Book added successfully")
 show_books(books)
